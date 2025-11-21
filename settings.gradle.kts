@@ -7,9 +7,7 @@ pluginManagement {
 }
 
 dependencyResolutionManagement {
-    // AGORA PERMITE repos no módulo sem crash
-    repositoriesMode.set(RepositoriesMode.PREFER_SETTINGS)
-
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
     repositories {
         google()
         mavenCentral()
